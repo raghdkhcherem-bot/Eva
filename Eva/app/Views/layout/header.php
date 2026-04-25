@@ -38,7 +38,7 @@ function e(string $str): string {
         </a>
     </div>
     <div class="nav-user">
-        <span class="user-greeting">👋 <?= e($_SESSION['user_name'] ?? '') ?></span>
+        <span class="user-greeting"> <?= e($_SESSION['user_name'] ?? '') ?></span>
         <a href="index.php?action=logout" class="btn btn-ghost btn-sm">Déconnexion</a>
     </div>
 </nav>
